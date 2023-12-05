@@ -6,7 +6,7 @@ connection=connection = pypyodbc.connect('Driver={ODBC Driver 17 for SQL Server}
 'encrypt=yes;'
 'TrustServerCertificate=yes;'
 'UID=sa;'
-'PWD=Password',autocommit = True)
+'PWD=Password@123',autocommit = True)
 
 cursor = connection.cursor()
 SQLCommand = ("CREATE DATABASE Customer;")
@@ -21,7 +21,7 @@ connection=connection = pypyodbc.connect('Driver={ODBC Driver 17 for SQL Server}
 'encrypt=yes;'
 'TrustServerCertificate=yes;'
 'UID=sa;'
-'PWD=Password',autocommit = True)
+'PWD=Password@123',autocommit = True)
 
 cursor = connection.cursor()
 SQLCommand = ("CREATE TABLE test(ID INT);")
