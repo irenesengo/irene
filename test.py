@@ -1,7 +1,7 @@
 import pypyodbc
 
 connection=connection = pypyodbc.connect('Driver={ODBC Driver 17 for SQL Server};'
-'Server=74.234.3.172;'
+'Server=localhost;'
 'Database=master;'
 'encrypt=yes;'
 'TrustServerCertificate=yes;'
@@ -16,7 +16,7 @@ print('done')
 connection.close()
 
 connection=connection = pypyodbc.connect('Driver={ODBC Driver 17 for SQL Server};'
-'Server=74.234.3.172;'
+'Server=localhost;'
 'Database=Customer;'
 'encrypt=yes;'
 'TrustServerCertificate=yes;'
